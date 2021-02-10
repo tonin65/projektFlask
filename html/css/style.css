@@ -1,0 +1,270 @@
+body {
+    font-family: 'Poppins', sans-serif;}
+.main-cover {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+.navbar-light a.navbar-brand {
+    font-weight: 900;
+    color:  rgb(51, 1, 1);
+    font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(51, 1, 1);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.navbar-collapse {
+    width: auto;
+}
+.main-cover{
+    color: ghostwhite;
+    position: relative;
+ }
+ .main-cover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgba(51, 1, 1, 0.45);
+ }
+ .cover-info {
+     z-index: 1;
+     position: relative;
+ }
+.main-cover h1{
+   font-size: 4rem;
+}
+.main-cover h4{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+ }
+ .main-cover .main-button{
+    margin-top: 2rem;
+ }
+ .main-button   {
+     padding: 1em 3em ;
+     background-color: rgba(255, 255, 255, 0.712);
+     display: inline-block;
+     color:  rgb(51, 1, 1);
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: all linear 0.16s;
+     font-weight: 600;
+     border-radius: 2px;
+     text-align: center;
+ }
+ .dark-bg {
+     background-color: rgb(51, 1, 1);
+     color: ghostwhite;
+ }
+ .main-button:hover   {
+    color: rgba(255, 255, 255, 0.712);
+    background-color: rgb(51, 1, 1);
+}
+.section-o-nama, .section-meni {
+    margin-top: 8vh;
+}
+.section-o-nama .main-button{
+    margin-top: 2rem;
+ }
+.text-justify {
+    text-align: justify;
+}
+.align-centre {
+    align-items: center;
+    display: flex;
+}
+section.section-meni {
+    background: #f2f2f2;
+    padding: 8vh 0;
+}
+.section-meni .nav-pills .nav-link {
+    border-radius: .25rem;
+    padding: 1em 3em;
+    text-transform: uppercase;
+    color: #330101;
+    font-weight: 600;
+}
+.section-meni .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    padding: 1em 3em;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all linear 0.16s;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: rgb(51, 1, 1);
+    color: ghostwhite;
+}
+.section-meni .tab-pane {
+    padding-top: 4vh;
+}
+.section-meni .tab-pane {
+    padding-top: 4vh;
+}
+.section-meni .meni-item {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: #330101 1px dashed;
+}
+.section-meni li.nav-item {
+    background: white;
+    margin-right: 1rem;
+}
+.meni-item {
+    font-size: 1.25rem;
+}
+.section-gallery {
+    padding: 8vh 0;
+}
+.gallery {
+
+}
+.gallery a{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.main-content {
+    padding: 8vh 0;
+}
+
+/***************************************************************************
+CONTACT
+***************************************************************************/
+
+.contact form {
+margin-top: 0px;
+padding: 0px 30px;
+}
+.contact h3 {
+color: rgb(51, 1, 1);
+text-align: center;
+font-weight: 600;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.contact .form-group {
+    margin-top: 2rem;
+}
+.contact p {
+margin: 0 0px 10px;
+margin-left: 0px!important;
+}
+.contact label {
+display: none;
+}
+.contact input {
+width: 100%;
+border: none;
+border: 1px solid #dddddd78;
+padding: 10px;
+border-radius: 4px;
+}
+.contact textarea#message {
+width: 100%;
+height: 122px;
+border: 1px solid #dddddd78;
+border-radius: 4px;
+padding: 10px;
+}
+.contact input#submit {
+color: white;
+background: linear-gradient(0.25turn,rgb(51, 1, 1), rgb(105, 1, 1));
+float: right;
+border: none;
+border-radius: 4px;
+padding: 15px 23px;
+/* margin-right: 10px; */
+box-shadow: 0px 0px 4px 0px #00000087;
+margin-top: 15px;
+}
+
+/***************************************************************************
+END CONTACT
+***************************************************************************/
+footer {
+        background: #f2f2f2;
+        padding: 8vh 0;
+}
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.footer-links li{
+    margin-bottom: 1rem;
+    
+}
+.inner-cover {
+    height: 350px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: ghostwhite;
+    position: relative;
+}
+
+.inner-cover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgba(51, 1, 1, 0.45);
+ }
+ .inner-cover .container {
+     position: relative;
+ }
+@media Screen and (min-width:769px) {
+    .navbar .navbar-collapse {
+        margin-left: auto;
+    }
+}
+@media Screen and (max-width:768px) {
+    .navbar-collapse {
+        width: 100%;
+    }
+    .navbar {
+        box-shadow: 2px 2px 2px black;
+    }
+    .main-button {
+   
+        display: block;
+        text-align: center;
+    }
+    .main-cover h1 {
+        font-size: 2rem;
+    }
+    .section-meni li.nav-item {
+        background: white;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+        display: block;
+    }
+    .section-meni .nav-pills .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}

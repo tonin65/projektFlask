@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Kontakt{% endblock %}
+{% block content %}
+    <div class="inner-cover" style="background-image: url({{ url_for('static', filename='images/brick-wall-1834784_1920.jpg') }});">
+        <div class="container">
+            <h1>Kontakt</h1>
+            <h4>SVJEŽA DOMAĆA HRANA, BESKRAJNI RAZGOVORI I NEOPISIVO PUNO SMIJEHA.</h4>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact">
+                        <h3>Kontaktirajte nas</h3>
+                    <!-- Just here i use "url_for" to call the function kontakt.
+                             This function return the html code of our kontakt page-->
+                             <form action="{{ url_for('kontakt') }}" method="POST">
+                                {{ form.csrf_token }}
+                              
+                                <div class="form-group">
+                                  {{ form.name.label }}
+                                  {{ form.name(placeholder='Unesite Ime') }}
+                                  {% for error in form.name.errors %}
+                                  <span style="color: red;">[{{ error }}]</span>
+                                  {% endfor %}
+                                </div>
+                              
+                                <div class="form-group">
+                                  {{ form.email.label }}
+                                  {{ form.email(placeholder='Unesite Email') }}
+                                  {% for error in form.email.errors %}
+                                  <span style="color: red;">[{{ error }}]</span>
+                                  {% endfor %}
+                                </div>
+                              
+                                <div class="form-group">
+                                  {{ form.subject.label }}
+                                  {{ form.subject(placeholder='Unesite Naslov')  }}
+                                  {% for error in form.subject.errors %}
+                                  <span style="color: red;">[{{ error }}]</span>
+                                  {% endfor %}
+                                </div>
+                              
+                                <div class="form-group">
+                                  {{ form.message.label }}
+                                  {{ form.message(placeholder='Unesite Poruku') }}
+                                  {% for error in form.message.errors %}
+                                  <span style="color: red;">[{{ error }}]</span>
+                                  {% endfor %}
+                                </div>
+                              
+                                {{ form.submit(class='btn btn-success') }}
+                                
+                              </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

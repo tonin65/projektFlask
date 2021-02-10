@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Galerija{% endblock %}
+{% block content %}
+    <div class="inner-cover" style="background-image: url({{ url_for('static', filename='images/brick-wall-1834784_1920.jpg') }});">
+        <div class="container">
+            <h1>Galerija</h1>
+            <h4>SVJEŽA DOMAĆA HRANA, BESKRAJNI RAZGOVORI I NEOPISIVO PUNO SMIJEHA.</h4>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                <!-- GALERIJA -->
+                <section class="section-gallery">
+                    <div class="container text-center mb-5">
+                        <h2>Naša galerija</h2>
+                        <p>Ugodan ambijent restorana zadržao je elemente tradicije, ali suvremnenim uređenjem poručuje da se razvija u duhu vremena i u skaldu sa zahtjevima suvremenog gosta.</p>
+                    </div>
+                    <div class="container">
+                        <div class="gallery row">
+
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/1.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/1.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/2.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/2.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/3.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/3.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/4.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/4.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/5.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/5.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/6.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/6.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/7.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/7.jpg') }}"></a>
+                            <a class="col-md-3 col-4" data-fancybox="gallery" href="{{ url_for('static', filename='images/gallery/8.jpg') }}"><img class="img-fluid" src="{{ url_for('static', filename='images/gallery/8.jpg') }}"></a>
+
+                        </div>
+        
+
+                    </div>
+                </section>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
