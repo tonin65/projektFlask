@@ -12,6 +12,11 @@ Na savim stranicama osim pocetne nalazi se i opcija za direktni pozivv na sluzbe
 Takoder se na svim stranicama nalazi i tablica sa trenutnim vremenskim podatcima koji se preuzimaju sa https://openweathermap.org/
 U mobilnoj verziji, traka za navigaciju unutar aplikacije se pretvara u padajuci "hamburger" izbornik.
 
+- Desni klik git bash
+- git add .
+- git commit -m "poruka"
+- git push
+
 ## Pokretanje aplikacije
 
 - 1.Instaliramo virtualno okruženje u CMD ili Poweshell-u ( py -m venv venv ili python -m venv venv)
