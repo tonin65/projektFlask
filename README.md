@@ -12,6 +12,8 @@ Na savim stranicama osim pocetne nalazi se i opcija za direktni pozivv na sluzbe
 Takoder se na svim stranicama nalazi i tablica sa trenutnim vremenskim podatcima koji se preuzimaju sa https://openweathermap.org/
 U mobilnoj verziji, traka za navigaciju unutar aplikacije se pretvara u padajuci "hamburger" izbornik.
 
+Ovo iznad obrisati
+
 - Desni klik git bash
 - git add .
 - git commit -m "poruka"
