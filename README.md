@@ -1,16 +1,11 @@
 # PROJEKT2-FLASK APLIKACIJA
 
-Za aplikaciju drugog projekta tema je bila Memories apartmani u Svetom Petru na moru kraj Zadra.
+Za aplikaciju drugog projekta tema je bila Restoran Tonin
 Aplikacija se sastoji od više web stranica 
-
-Na pocetnoj stranici glavne opcije su log in i nastavi kao gost.
-Uz navedene opcije nalazi slideshow sa nekoliko slika i tablica sa trenutnim vremenskim prilikama u gradu Zadru.
-Razlika u odabira opcija log in ili nastavi kao gost ogleda se u tome da ako se logira, na stranici pise 
-hello i username a ako se odabere opcija nastavi kao gost stranice su bez pozrdava.
-
-Na savim stranicama osim pocetne nalazi se i opcija za direktni pozivv na sluzbeni broj apartmana.
-Takoder se na svim stranicama nalazi i tablica sa trenutnim vremenskim podatcima koji se preuzimaju sa https://openweathermap.org/
-U mobilnoj verziji, traka za navigaciju unutar aplikacije se pretvara u padajuci "hamburger" izbornik.
+Na pocetnoj stranici možemo pročitati malo više o ovom restoranu te postoje mogućnosti poput jelovinika, galerije, kontakta...
+Stranica posjeduje i mnogo slika kako bi se osoba lakše mogla odlučiti za svoje omiljeno jelo, također posjeduje i kartu
+kako bi osoba mogla laše pronaći lokaciju mog restorana.
+U donjem lijevom kutu se također nalazi i kontakt broj te e-mail preko kojeg me možete kontaktirati.
 
 - Desni klik git bash
 - git add .
